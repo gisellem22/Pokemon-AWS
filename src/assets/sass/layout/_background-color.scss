@@ -1,0 +1,3 @@
+.green-background {
+    @include background-Color-Gradient($background-color-green1, $background-color-green2, $background-color-green3);
+}
