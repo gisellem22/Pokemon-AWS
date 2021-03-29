@@ -1,7 +1,9 @@
 <div class="h-100">
-    <img src="../../../assets/images/pokemongo.jpeg" class="home-img" alt="">
+    <img [hidden]="loading" (load)="onLoad()" src="../../../assets/images/pokemongo.jpeg" class="home-img" alt="">
+</div>
+<div *ngIf="loading">
+    <app-spinner></app-spinner>
 </div>
 <app-navbar></app-navbar>
 <div class="container-fluid home-page green-background">
-    
 </div>
