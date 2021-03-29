@@ -1,0 +1,14 @@
+.logo-screen {
+    display: block;     
+ }
+ .logo-mobile {
+     display: none;     
+ }
+@media (max-width: 767px) {
+    .logo-screen {
+        display: none;
+    }
+	.logo-mobile {
+        display: block;
+    }
+}

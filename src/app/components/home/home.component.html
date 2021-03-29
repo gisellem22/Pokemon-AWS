@@ -1,5 +1,8 @@
-<div class="h-100">
+<div class="h-100 logo-screen">
     <img [hidden]="loading" (load)="onLoad()" src="../../../assets/images/pokemongo.jpeg" class="home-img" alt="">
+</div>
+<div class="h-100 logo-mobile">
+    <img [hidden]="loading" (load)="onLoad()" src="../../../assets/images/pokemon-mobile.jpeg" class="home-img" alt="">
 </div>
 <div *ngIf="loading">
     <app-spinner></app-spinner>
